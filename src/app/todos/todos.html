@@ -1,1 +1,5 @@
-<p>todos works!</p>
+<!-- <p>{{ todoitems()[0].title }}</p> -->
+
+@for (todo of todoitems(); track todo.id) {
+  <p>{{ todo.title }}</p>
+}
