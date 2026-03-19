@@ -8,5 +8,5 @@ import { RouterLink } from '@angular/router';
   styleUrl: './header.scss',
 })
 export class Header {
-  title = "My first angular app"
+  title = 'Its my first angular app';
 }
